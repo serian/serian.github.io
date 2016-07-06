@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    hugoでメモサイトを作ってみる | progmemo
+    emacsのhugo.elを使ってみる | progmemo
   </title>
 
 
@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="http://serian.github.io/post/test_article01/"/>
+  <link rel="canonical" href="http://serian.github.io/post/test_with_hugo_el/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -60,23 +60,41 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>hugoでメモサイトを作ってみる</h1>
+      <h1>emacsのhugo.elを使ってみる</h1>
       <div class="meta">
         Jul 7, 2016 &nbsp;
         
-          #<a href="/tags/test">test</a>&nbsp;
-        
           #<a href="/tags/misc">misc</a>&nbsp;
+        
+          #<a href="/tags/test">test</a>&nbsp;
         
       </div>
     </div>
     <article>
       
 
-<h2 id="参考サイト">参考サイト</h2>
+<h2 id="hugo-elを書いた-yewton-net-https-www-yewton-net-2016-01-26-hugo-el"><a href="https://www.yewton.net/2016/01/26/hugo-el/">hugo.elを書いた · yewton.net</a></h2>
 
-<p><a href="http://blog.shotarok.com/post/2015-12-15_my-first-post/">Hugo + Github Pages でブログ開始 | shotarok&rsquo;s Tech Blog</a><br />
-<a href="http://tanksuzuki.com/post/hugo-github-pages-1/">Hugo + GitHub Pagesでブログを作る#1 | TANKSUZUKI.COM</a></p>
+<p>ht.elが無かったからpackage-listでインストール。<br />
+hugo-sites-dirにhugoで使うルートディレクトリを設定。<br />
+hugo-new-contentで新しい記事を書き始める。<br />
+hugo-start-serverでサーバースタート。<br />
+hugo-open-browserでプレビュー。
+hugo-deployでpush。</p>
+
+<h2 id="サーバの起動オプション">サーバの起動オプション</h2>
+
+<p>最初からテーマありきの設定だと、デフォルトのものではうまくいかないのか。<br />
+&rdquo;-DF&rdquo;っていうのを、&rdquo;-t&rdquo; &ldquo;angels-ladder&rdquo; &ldquo;-D&rdquo; &ldquo;-w&rdquo;に変えた。</p>
+
+<h2 id="deploy-sh">deploy.sh</h2>
+
+<p>中でこれを起動してる。<br />
+<a href="http://gohugo.io/tutorials/github-pages-blog/">Hugo - Hosting on GitHub Pages</a>にある。</p>
+
+<p>あるいは、<a href="http://tanksuzuki.com/post/hugo-github-pages-2/">Hugo + GitHub Pagesでブログを作る#2 | TANKSUZUKI.COM</a>のhugo-build.sh。<br />
+これをhugo-sites-dirにおいておけばいいのか。<br />
+ただこの場合、&rdquo;postの中をきれいにする&rdquo;という部分はいらないようなそうでもないような？</p>
 
       
       
@@ -89,8 +107,8 @@
   
   <nav class="pagination-single">
     
+      <span class="previous">&larr; <a href="http://serian.github.io/post/test_article01/" rel="prev">hugoでメモサイトを作ってみる</a></span>
     
-      <span class="next"><a href="http://serian.github.io/post/test_with_hugo_el/" rel="next">emacsのhugo.elを使ってみる</a> &rarr;</span>
     
   </nav>
 
