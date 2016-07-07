@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on progmemo</title>
-    <link>http://serian.github.io/post/</link>
-    <description>Recent content in Posts on progmemo</description>
+    <title>progmemo</title>
+    <link>http://serian.github.io/tags/</link>
+    <description>Recent content on progmemo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 07 Jul 2016 11:27:08 +0900</lastBuildDate>
-    <atom:link href="http://serian.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://serian.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hugoの管理</title>
@@ -43,54 +43,6 @@
 
 &lt;p&gt;本家のチュートリアルのようなproject pagesの場合、masterとgithub pages用のgit-pagesという二つのブランチがあって、そこではいちいちブランチ移動して更新するのは面倒だとしてある。&lt;br /&gt;
 そこで、git-pagesのrootを、masterにsubtreeしてミラーを作って、masterブランチで更新していく対処法が書いてあるような気がするが、gitもgithubも単純なことしか知らないのでよくわからない。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>emacsのhugo.elを使ってみる</title>
-      <link>http://serian.github.io/post/test_with_hugo_el/</link>
-      <pubDate>Thu, 07 Jul 2016 06:18:02 +0900</pubDate>
-      
-      <guid>http://serian.github.io/post/test_with_hugo_el/</guid>
-      <description>
-
-&lt;h2 id=&#34;hugo-elを書いた-yewton-net-https-www-yewton-net-2016-01-26-hugo-el&#34;&gt;&lt;a href=&#34;https://www.yewton.net/2016/01/26/hugo-el/&#34;&gt;hugo.elを書いた · yewton.net&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;ht.elが無かったからpackage-listでインストール。&lt;br /&gt;
-hugo-sites-dirにhugoで使うルートディレクトリを設定。&lt;br /&gt;
-hugo-new-contentで新しい記事を書き始める。&lt;br /&gt;
-hugo-start-serverでサーバースタート。&lt;br /&gt;
-hugo-open-browserでプレビュー。
-hugo-deployでpush。&lt;/p&gt;
-
-&lt;h2 id=&#34;サーバの起動オプション&#34;&gt;サーバの起動オプション&lt;/h2&gt;
-
-&lt;p&gt;最初からテーマありきの設定だと、デフォルトのものではうまくいかないのか。&lt;br /&gt;
-&amp;rdquo;-DF&amp;rdquo;っていうのを、&amp;rdquo;-t&amp;rdquo; &amp;ldquo;angels-ladder&amp;rdquo; &amp;ldquo;-D&amp;rdquo; &amp;ldquo;-w&amp;rdquo;に変えた。&lt;/p&gt;
-
-&lt;h2 id=&#34;deploy-sh&#34;&gt;deploy.sh&lt;/h2&gt;
-
-&lt;p&gt;中でこれを起動してる。&lt;br /&gt;
-&lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hugo - Hosting on GitHub Pages&lt;/a&gt;にある。&lt;/p&gt;
-
-&lt;p&gt;あるいは、&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-2/&#34;&gt;Hugo + GitHub Pagesでブログを作る#2 | TANKSUZUKI.COM&lt;/a&gt;のhugo-build.sh。&lt;br /&gt;
-これをhugo-sites-dirにおいておけばいいのか。&lt;br /&gt;
-ただこの場合、&amp;rdquo;postの中をきれいにする&amp;rdquo;という部分はいらないようなそうでもないような？&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>hugoでメモサイトを作ってみる</title>
-      <link>http://serian.github.io/post/test_article01/</link>
-      <pubDate>Thu, 07 Jul 2016 02:59:26 +0900</pubDate>
-      
-      <guid>http://serian.github.io/post/test_article01/</guid>
-      <description>
-
-&lt;h2 id=&#34;参考サイト&#34;&gt;参考サイト&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.shotarok.com/post/2015-12-15_my-first-post/&#34;&gt;Hugo + Github Pages でブログ開始 | shotarok&amp;rsquo;s Tech Blog&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;Hugo + GitHub Pagesでブログを作る#1 | TANKSUZUKI.COM&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
