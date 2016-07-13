@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agenda on progmemo</title>
+    <link>http://serian.github.io/tags/agenda/</link>
+    <description>Recent content in Agenda on progmemo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 13 Jul 2016 09:20:05 +0900</lastBuildDate>
+    <atom:link href="http://serian.github.io/tags/agenda/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>vxaceのタイルセットの内装壁</title>
+      <link>http://serian.github.io/post/vxace_naisou_kabe_no_nazo/</link>
+      <pubDate>Wed, 13 Jul 2016 09:20:05 +0900</pubDate>
+      
+      <guid>http://serian.github.io/post/vxace_naisou_kabe_no_nazo/</guid>
+      <description>&lt;p&gt;rpgツクールvxaceのタイルセットの扱い。&lt;br /&gt;
+いわゆるマップチップの使い方の疑問点。&lt;br /&gt;
+内装タイルセットで9段目くらいからの「内装壁」のペアについて。&lt;br /&gt;
+&lt;img src=&#34;http://serian.github.io/images/gr-lean - RPGツクールVX Ace-2016-07--000008.png&#34; alt=&#34;内装壁&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;天板に相当するタイルは下方から侵入可能になってる。&lt;br /&gt;
+&lt;img src=&#34;http://serian.github.io/images/gr-lean-2016-07--000009.png&#34; alt=&#34;内装壁&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://serian.github.io/images/gr-データベース-2016-07--000010.png&#34; alt=&#34;DB内の内装壁&#34; /&gt;&lt;br /&gt;
+データベースでの通行設定はブロック×&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://serian.github.io/images/gr-データベース-2016-07--000011.png&#34; alt=&#34;DB内の内装壁&#34; /&gt;&lt;br /&gt;
+４方向は無設定&lt;/p&gt;
+
+&lt;p&gt;これはこういうものなのか。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
