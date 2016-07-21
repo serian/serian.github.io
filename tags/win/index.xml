@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>progmemo</title>
-    <link>http://serian.github.io/tags/</link>
-    <description>Recent content on progmemo</description>
+    <title>Win on progmemo</title>
+    <link>http://serian.github.io/tags/win/</link>
+    <description>Recent content in Win on progmemo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 22 Jul 2016 00:22:16 +0900</lastBuildDate>
-    <atom:link href="http://serian.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://serian.github.io/tags/win/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>windows7からwindows10にアップグレードでトラブル</title>
@@ -63,43 +63,6 @@
 &lt;h3 id=&#34;総合&#34;&gt;総合&lt;/h3&gt;
 
 &lt;p&gt;思ったほど重くはない。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>hugoの管理</title>
-      <link>http://serian.github.io/post/hugo_continue_1/</link>
-      <pubDate>Thu, 07 Jul 2016 11:27:08 +0900</pubDate>
-      
-      <guid>http://serian.github.io/post/hugo_continue_1/</guid>
-      <description>
-
-&lt;p&gt;Github Pagesとhugoについていくつかのサイトを読むと、どうもリポジトリを二つ作る流儀があるらしい。&lt;br /&gt;
-というかそっちの方が多いような。&lt;br /&gt;
-そして&amp;rdquo;gh-pages&amp;rdquo;とかいうブランチを作ったりという方式も。&lt;/p&gt;
-
-&lt;h2 id=&#34;gh-pagesを作るかどうか&#34;&gt;gh-pagesを作るかどうか&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/user-organization-and-project-pages/&#34;&gt;User, Organization, and Project Pages - User Documentation&lt;/a&gt;を読むと、これはどうやらプロジェクト毎のGithub Pagesを作る時の形式らしい。&lt;br /&gt;
-で、Github Pagesとしては、そのプロジェクト名が、&lt;br /&gt;
-&amp;gt; username.github.io/&amp;lt;プロジェクト名&amp;gt;
-みたいな感じでディレクトリになるみたいな気がする。&lt;/p&gt;
-
-&lt;p&gt;今回みたいに全く独立のサイト、User &amp;amp; Organization Pages を作って、ルート直下にファイルが場合は別によさそう。&lt;/p&gt;
-
-&lt;h2 id=&#34;リポジトリを二つ作って管理するか&#34;&gt;リポジトリを二つ作って管理するか&lt;/h2&gt;
-
-&lt;p&gt;要は、元のmarkdownファイルや*Hugoのシステム関係のファイル*とHugoで作った*webサイトとして公開するファイル*、つまり&lt;strong&gt;public&lt;/strong&gt;ディレクトリを別に管理するってことのようだ。&lt;br /&gt;
-だから、前者をbitbuckets、後者をgithubで、って人もいた。&lt;/p&gt;
-
-&lt;p&gt;Hugo本家のチュートリアル&lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hugo - Hosting on GitHub Pages&lt;/a&gt;にも、インプットとアウトプットを分けるのはナイスな管理とか書いてある。&lt;/p&gt;
-
-&lt;h3 id=&#34;git-subtreeを使う流儀&#34;&gt;git subtreeを使う流儀&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/__mick/items/e027cc3941ac52743bd5&#34;&gt;gitで外部moduleを扱う方法(subtree) - Qiita&lt;/a&gt;を読むと、単純に考えて、ファイルシステムで言うシンボリックリンクのような仕組みっぽい。&lt;/p&gt;
-
-&lt;p&gt;本家のチュートリアルのようなproject pagesの場合、masterとgithub pages用のgit-pagesという二つのブランチがあって、そこではいちいちブランチ移動して更新するのは面倒だとしてある。&lt;br /&gt;
-そこで、git-pagesのrootを、masterにsubtreeしてミラーを作って、masterブランチで更新していく対処法が書いてあるような気がするが、gitもgithubも単純なことしか知らないのでよくわからない。&lt;/p&gt;
 </description>
     </item>
     

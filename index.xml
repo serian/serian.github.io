@@ -6,8 +6,65 @@
     <description>Recent content on progmemo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 Jul 2016 09:20:05 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jul 2016 00:22:16 +0900</lastBuildDate>
     <atom:link href="http://serian.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>windows7からwindows10にアップグレードでトラブル</title>
+      <link>http://serian.github.io/post/windows10_install/</link>
+      <pubDate>Fri, 22 Jul 2016 00:22:16 +0900</pubDate>
+      
+      <guid>http://serian.github.io/post/windows10_install/</guid>
+      <description>
+
+&lt;h2 id=&#34;アップグレード&#34;&gt;アップグレード&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.microsoft.com/ja-jp/windows/windows-10-upgrade&#34;&gt;How to Upgrade to Windows 10 - Microsoft&lt;/a&gt;の「無償でアップグレード」ボタンで。&lt;/p&gt;
+
+&lt;h2 id=&#34;エラーコード0xc1900200&#34;&gt;エラーコード0xc1900200&lt;/h2&gt;
+
+&lt;p&gt;セキュリティーソフトを切らずにアップグレード作業をやってた。&lt;br /&gt;
+アンチウィルスとアンチリーク機能付きのファイアウォールソフトを停止してクリア。&lt;/p&gt;
+
+&lt;h2 id=&#34;このプロセッサでは重要な機能-nxがサポートされていません&#34;&gt;このプロセッサでは重要な機能 nxがサポートされていません&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ameblo.jp/nishiharima-bansyu/entry-12113824606.html&#34;&gt;windows10にしてみた。続。｜西播磨のブログ&lt;/a&gt;に従って、bcdeditとか言うものでnx値を設定してクリア&lt;/p&gt;
+
+&lt;h2 id=&#34;インストール後&#34;&gt;インストール後&lt;/h2&gt;
+
+&lt;h3 id=&#34;フォントが汚い&#34;&gt;フォントが汚い&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://forest.watch.impress.co.jp/library/software/win10fontchg/&#34;&gt;Windows10 フォントが汚いので一発変更! - 窓の杜ライブラリ&lt;/a&gt;
+これ使ってクリア&lt;/p&gt;
+
+&lt;h3 id=&#34;なんか重い&#34;&gt;なんか重い&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lifehacker.jp/2015/08/150817win10_privacy.html&#34;&gt;デフォルトのままは危険？ 「Windows 10」のプライバシー設定はこう変えよう ｜ ライフハッカー［日本版］&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://psn.hatenablog.jp/entry/2015/01/24/204501&#34;&gt;Windows10の音声アシスタント「Cortana」を消す(無効にする) - すなばいじり&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gigazine.net/news/20150805-windows-10-update-bandwidth/&#34;&gt;Windows10はWindows Update時に他ユーザーの帯域を使うことが判明 - GIGAZINE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この辺を見ていろいろオフにしてクリアしつつ。&lt;/p&gt;
+
+&lt;h3 id=&#34;ダウングレード&#34;&gt;ダウングレード&lt;/h3&gt;
+
+&lt;p&gt;１ヶ月以内に戻したくなったら、&lt;a href=&#34;http://pc-karuma.net/windows-10-downgrade-windows-7-8-1/&#34;&gt;Windows10 から Windows7/8.1 に戻す方法 - ダウングレード - PC設定のカルマ&lt;/a&gt;の手順で。&lt;/p&gt;
+
+&lt;h3 id=&#34;問題点&#34;&gt;問題点&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一瞬、URLショートカットが作れなかったり、通知領域への登録に失敗するソフトが出たりしたけど、再起動で直った。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;IEの動作が変。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;やっぱwin7に比べると何割かは余計にメモリ食ってるような。だからwin7 32bitからではあんまりメリットないんじゃないだろうか。&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;outpostが自動的に排除されて、windows defenderに取ってかわられた？&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;総合&#34;&gt;総合&lt;/h3&gt;
+
+&lt;p&gt;思ったほど重くはない。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>vxaceのタイルセットの内装壁</title>
